@@ -35,7 +35,7 @@ b = 5
 print(a * b)
 
 
-# Строки
+# Str
 
 greet = 'Hello'
 firstName = 'Alex'
@@ -59,5 +59,20 @@ print(nums)
 
 triple = """This is text with triple quotes"""
 print(triple)
+
+greeting = 'Hello Python!'
+print(len(greeting))
+print(greeting[3])
+print(greeting[-3])
+
+# Slice
+
+print(greeting[2:8])
+print(greeting[-7:-1])
+print(greeting[:])
+print(greeting[1:9:2])
+
+# Methods Str
+
 
 
