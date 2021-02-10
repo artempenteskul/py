@@ -33,3 +33,31 @@ print(carColor)
 a = 6
 b = 5
 print(a * b)
+
+
+# Строки
+
+greet = 'Hello'
+firstName = 'Alex'
+lastName = 'White'
+print(greet + ' ' + firstName + ' ' + lastName)
+
+longStr = 'This is long str'
+print(longStr)
+
+#Escaping
+
+someStr = 'I\'m programmer'
+name = '"Fanta"'
+print(name)
+print('h\ne\nl\nl\no')
+
+nums = '12\t34\t567'
+print(nums)
+
+#Triple quotes
+
+triple = """This is text with triple quotes"""
+print(triple)
+
+
