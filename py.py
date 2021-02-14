@@ -100,3 +100,17 @@ for count, num in enumerate(get_odds(), 1):
     if count == 3:
         print('The third odd num is', num)
         break
+
+# PyModules
+
+def hours() :
+    print('Open 9-5 daily')
+
+plain = {
+    'a': 1,
+    'b': 2,
+    'c': 3
+}
+
+print(plain)
+
