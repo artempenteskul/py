@@ -114,3 +114,5 @@ plain = {
 
 print(plain)
 
+# Обьекты Python
+
