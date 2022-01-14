@@ -14,6 +14,6 @@ while age != '':
     else:
         total += 23
 
-    age = input('Enter the age of the first person: ')
+    age = input('Enter the age of the next person or press enter to count:')
 
 print(f'Total cost for all tickets is: {total:.2f}$')
