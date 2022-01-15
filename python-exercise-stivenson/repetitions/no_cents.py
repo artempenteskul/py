@@ -1,10 +1,10 @@
-amount_of_money = input('Enter the amount of money or '' to exit: ')
+amount_of_money = input('Enter the amount of money or press enter to exit: ')
 
 total = 0
 
 while amount_of_money != '':
     total += float(amount_of_money)
-    amount_of_money = input('Enter the amount of money or '' to exit: ')
+    amount_of_money = input('Enter the amount of money or press enter to exit: ')
 
 print(f'Total sum: {total:.2f}')
 
