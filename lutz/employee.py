@@ -45,4 +45,4 @@ if __name__ == '__main__':
 
     for klass in Employee, Chef, Servant, PizzaRobot:
         obj = klass(klass.__name__)
-        print(klass)
+        obj.work()
