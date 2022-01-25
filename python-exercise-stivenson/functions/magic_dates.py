@@ -13,4 +13,3 @@ if __name__ == '__main__':
             for day in range(1, days_quantity(month=month, year=year) + 1):
                 if is_magic_date(d=day, m=month, y=year):
                     print(f'{day}/{month}/{year} is a magic date')
-
