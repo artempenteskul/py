@@ -6,7 +6,7 @@ start_time = time.perf_counter()
 
 
 def do_something(seconds):
-    print('Start sleeping')
+    print(f'Start {seconds} sleeping')
     time.sleep(seconds)
     return f'Done sleeping ... {seconds}'
 
