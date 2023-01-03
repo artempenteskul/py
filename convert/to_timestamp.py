@@ -2,6 +2,6 @@ from datetime import datetime
 
 
 if __name__ == '__main__':
-    timestamp = 1672741185.745177
-    d = datetime.fromtimestamp(timestamp)
-    print(d)
+    d = datetime(2023, 1, 3, 12, 19, 45, 745177)
+    timestamp = datetime.timestamp(d)
+    print(timestamp)
