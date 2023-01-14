@@ -3,9 +3,9 @@ import _thread
 
 
 def counter(th_id, count):
-    for i in range(count):
+    for j in range(count):
         time.sleep(1)
-        print(f'{th_id} => {i}')
+        print(f'{th_id} => {j}')
 
 
 for i in range(5):
