@@ -1,7 +1,8 @@
 from datetime import datetime
 
 
+DATETIME = datetime(2023, 2, 8, 11, 19, 45, 745177)
+
 if __name__ == '__main__':
-    d = datetime(2023, 1, 3, 12, 19, 45, 745177)
-    timestamp = datetime.timestamp(d)
+    timestamp = datetime.timestamp(DATETIME)
     print(timestamp)
