@@ -1,11 +1,8 @@
 
-def sum_tree(tree: list):
+def sum_tree(tree: list) -> int:
     total = 0
     
     for item in tree:
-        # print(item)
-        # print
-
         if not isinstance(item, list):
             total += item
         else:
