@@ -33,7 +33,7 @@ def make_calculation_three(numbers: list) -> None:
 
 if __name__ == '__main__':
     """
-    this __main__ works sync without spamming sub-processes
+    this __main__ works without spamming processes
     """
 
     numbers_list = list(range(50_000_000))
@@ -62,9 +62,8 @@ if __name__ == '__main__':
 
     start = time.time()
 
-    p1.start()
-    p2.start()
-    p3.start()
+    for p in (p1, p2, p3):
+        p.start()
 
     for p in (p1, p2, p3):
         p.join()
