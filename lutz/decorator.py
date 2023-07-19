@@ -29,5 +29,4 @@ def two(n: int) -> list:
 
 if __name__ == '__main__':
     one(100_000)
-    ######
     two(100_000)
